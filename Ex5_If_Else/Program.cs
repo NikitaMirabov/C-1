@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Как тебя зовут, солнце?");
-string username = Console.ReadLine();
+string username = Console.ReadLine()!;
 
 if(username.ToLower() == "никита")
 {
